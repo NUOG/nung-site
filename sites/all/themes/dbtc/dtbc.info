@@ -1,0 +1,39 @@
+name = DTBC
+description = Drupal Twitter Bootstrap Clean Theme. Developt by <a href="http://brun.if.ua/" target="_blank">Igor Bronovskyy</a>
+
+version = 1.0
+core = 7.x
+
+regions[header]         = 'Header'
+regions[sec_menu]       = 'Secondary Menu'
+regions[banner]       	= 'Banner'
+regions[help]           = 'Help'
+regions[highlighted]	= 'Highlighted'
+regions[content]        = 'Content'
+regions[content_right] = 'Content Right'
+regions[footer]         = 'Footer'
+
+stylesheets[all][]	= css/bootstrap-theme.min.css
+stylesheets[all][]	= css/bootstrap.min.css
+stylesheets[all][]	= style.css
+
+scripts[] = js/jquyery.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/carousel.js
+scripts[] = js/dropdown.js
+scripts[] = js/nung.js
+
+settings[toggle_name] = 0
+settings[toggle_search] = 1
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
